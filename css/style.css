@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 .bg-black {background-color: #000;}
 .bg-black-op {
     background-color: #000;
@@ -10,7 +15,7 @@
 }
 .hero {
     background-image: url('../images/hero.png');
-    background-position: bottom;
+    background-position: top;
     background-size: cover;
 }
 .features {
