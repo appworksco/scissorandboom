@@ -4,10 +4,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .bg-black {background-color: #000;}
-.bg-black-op {
-    background-color: #000;
-}
 .bg-custom {background-color: #e6cc17;}
+.bg-custom-dark {
+    background-color: #c19d07;
+}
 .text-custom {color: #e6cc17;}
 .navbar-active {
     background-color: #e6cc17;
