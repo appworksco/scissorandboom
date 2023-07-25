@@ -76,13 +76,13 @@
 				<div class="col-sm-12 col-md-6 p-0 p-sm-5">
 					<div class="card p-0 p-sm-5 bg-black">
 						<div class="card-body py-5">
-							<h3 class="card-title text-uppercase text-white">Get in touch!</h3>
+							<h3 class="card-title text-uppercase text-white fw-bold">Get in touch!</h3>
 							<p class="text-custom">We will call you right back!</p>
-							<form action="">
-								<input type="text" class="form-control mb-2" placeholder="Full Name">
-								<input type="text" class="form-control mb-2" placeholder="Phone Number">
-								<textarea class="w-100 p-2" placeholder="Message"></textarea>
-								<button class="btn bg-custom text-white w-100 text-uppercase">Send Message</button>
+							<form action="https://formspree.io/f/mgejvdjp" method="POST" enctype="multipart/form-data">
+								<input type="text" class="form-control mb-2 text-white" name="full_name" placeholder="Full Name" style="background: rgba(0, 0, 0, 0.10);">
+								<input type="text" class="form-control mb-2 text-white name="phone_number" placeholder="Phone Number" style="background: rgba(0, 0, 0, 0.10);">
+								<textarea class="w-100 text-white  p-2" name="message" placeholder="Message" style="background: rgba(0, 0, 0, 0.10);"></textarea>
+								<button type="submit" class="btn bg-custom text-white w-100 text-uppercase">Send Message</button>
 							</form>
 						</div>
 					</div>
